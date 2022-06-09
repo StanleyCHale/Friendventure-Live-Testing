@@ -3,8 +3,9 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Final Project (WIP)</title>
+    <title>Friendventure Final Project CS290</title>
     <link rel="stylesheet" href="index.css" media="screen">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <script src="index.js" charset="utf-8" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +17,8 @@
     <!-- Stuff here -->
 
     <header id= "head-Bar">
-      <h1 id= "title"> Adventure Game! </h1>
+      <!-- <h1 id= "title"> Friendventure! </h1> -->
+      <a href="/Friendventure"> <img id="title" src="Title.png"/> </a>
       <div id= "top-Bar">
         <!--Detail stuff-->
         <img id= "top-Bar-Decor" src= "top-Bar-Detail.png"/>
@@ -27,8 +29,8 @@
     <div id= "menu-Bar">
       <h2 id="options-title">Menu</h2>
       <div id= "options-Container">
-        <button class= "options-item"id= "save-Button">Save?</button>
-        <button class= "options-item" id= "load-Button">Load?</button>
+        <button class= "options-item"id= "save-Button">DLC 1 - Save</button>
+        <button class= "options-item" id= "load-Button">DLC 2 - Load</button>
         <button class= "options-item" id= "settings-Button">Settings</button>
         <button class= "options-item" id= "extras-Button">Extras</button>
       </div>
@@ -47,10 +49,10 @@
           <img class= "item-Picture" id="inv-item4"  src = ""/>
         </article>
         <article class= "inventory-Item">
-          <img class= "item-Picture" id="inv-item5"  src = ""/>
+          <img class= "item-Picture" id="inv-item5"  src = "./Pictures/Items/DLC.png"/>
         </article>
         <article class= "inventory-Item">
-          <img class= "item-Picture" id="inv-item6"  src = ""/>
+          <img class= "item-Picture" id="inv-item6"  src = "./Pictures/Items/DLC.png"/>
         </article>
       </div>
     </div>
@@ -86,14 +88,18 @@
       </div>
 
       <div class="modal-body">
+          <hr/>
+          <h2>
+            Leave a review of the game:
+            <a href="/Friendventure/reviews" id="page-link">Friendventure Reviews Page</a>
+          </h2>
+          <hr/>
 
         <div class="stats-element">
-            <h2>Statistics:</h2>
-            <p>3:52 PM || "Wow! 11/10" - IGN </p>
-            <p>4:13 PM || "Wheres my shotgun?"" - DoomBoomer37</p>
-            <p>4:15 PM || "Game is just a screen that says 'click to start', 0/10" - MetaCritic </p>
-            <p>4:39 PM || "I wish it was more realistic" - Friender69</p>
-            <p>5:50 PM || "Theres no jumping button 3/10" - BarrellHopperM</p>
+            <h2>Credits:</h2>
+            <p>Stanley Hale - Art, Writing, HTML, CSS, JS </p>
+            <p>Ezra - Art, Writing, JS</p>
+            <p>Iain -  Art, Writing, JS</p>
         </div>
       </div>
     </div>
